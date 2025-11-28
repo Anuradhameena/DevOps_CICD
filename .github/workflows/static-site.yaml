@@ -2,9 +2,9 @@ name: CI/CD for Static Site with GitHub Pages
 
 on:
   push:
-    branches: [ NeeharikaRN ]
+    branches: [ NeeharikaRN ]    # Trigger when pushing to this branch
   pull_request:
-    branches: [ NeeharikaRN ]
+    branches: [ NeeharikaRN ]    # Trigger when PR is created to this branch
 
 jobs:
   stage-1-checkout:
